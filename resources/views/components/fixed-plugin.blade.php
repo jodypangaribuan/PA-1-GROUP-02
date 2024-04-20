@@ -48,7 +48,7 @@
         <div class="form-check form-switch ps-0">
           <input class="form-check-input mt-1 ms-auto  {{ (Request::is('rtl') ? 'float-end' : '') }}"" type="checkbox" checked id="navbarFixed" onclick="navbarFixed(this)">
         </div>
-        
+
       </div>
     </div>
   </div>

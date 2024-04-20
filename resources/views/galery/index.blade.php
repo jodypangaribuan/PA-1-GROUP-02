@@ -3,7 +3,7 @@
 @section('content')
 <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
 
- 
+
     @if($errors->any())
         <div class="mt-3  alert alert-primary alert-dismissible fade show" role="alert">
             <span class="alert-text text-white">
@@ -40,7 +40,7 @@
                             <h5 class="mb-0">{{ $page_title ?? '' }}</h5>
                         </div>
                         <a href="#" class="btn bg-gradient-primary btn-sm mb-0" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">+&nbsp; New {{ $page_title ?? '' }}</a>
-                        
+
                         <!-- Modal -->
                         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog modal-xl">
@@ -61,7 +61,7 @@
                                         @enderror
                                     </div>
                                 </div>
-                                
+
                                 <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                                 <button type="submit" class="btn btn-primary">Save</button>
@@ -70,7 +70,7 @@
                             </div>
                             </div>
                         </div>
-  
+
                     </div>
                 </div>
                 <div class="card-body px-3 pt-0 pb-2">
@@ -87,7 +87,7 @@
                                     <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
                                         Action
                                     </th>
-                                    
+
                                 </tr>
                             </thead>
                             <tbody>
@@ -139,7 +139,7 @@
                 @enderror
             </div>
         </div>
-        
+
         <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         <button type="submit" class="btn btn-primary">Save</button>
@@ -150,7 +150,7 @@
 </div>
 @endforeach
 
- 
+
 
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
