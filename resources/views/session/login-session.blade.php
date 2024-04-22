@@ -82,7 +82,7 @@
                                     </div>
                                     <div class="form-check form-switch">
                                       <input class="form-check-input" type="checkbox" id="rememberMe" checked="">
-                                      <label class="form-check-label" for="rememberMe">Remember me</label>
+                                      <label class="form-check-label" for="rememberMe">Remember Me</label>
                                     </div>
                                     <button type="submit" class="btn btn-primary btn-block text-uppercase mb-2  shadow-sm">Sign in</button>
                                 </form>
